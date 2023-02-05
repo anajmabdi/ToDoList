@@ -1,0 +1,15 @@
+/Users/by/Desktop/ToDoList.solution/ToDoList/bin/Debug/net6.0/ToDoList.deps.json
+/Users/by/Desktop/ToDoList.solution/ToDoList/bin/Debug/net6.0/ToDoList.dll
+/Users/by/Desktop/ToDoList.solution/ToDoList/bin/Debug/net6.0/ToDoList.pdb
+/Users/by/Desktop/ToDoList.solution/ToDoList/obj/Debug/net6.0/ToDoList.csproj.AssemblyReference.cache
+/Users/by/Desktop/ToDoList.solution/ToDoList/obj/Debug/net6.0/ToDoList.GeneratedMSBuildEditorConfig.editorconfig
+/Users/by/Desktop/ToDoList.solution/ToDoList/obj/Debug/net6.0/ToDoList.AssemblyInfoInputs.cache
+/Users/by/Desktop/ToDoList.solution/ToDoList/obj/Debug/net6.0/ToDoList.AssemblyInfo.cs
+/Users/by/Desktop/ToDoList.solution/ToDoList/obj/Debug/net6.0/ToDoList.csproj.CoreCompileInputs.cache
+/Users/by/Desktop/ToDoList.solution/ToDoList/obj/Debug/net6.0/ToDoList.dll
+/Users/by/Desktop/ToDoList.solution/ToDoList/obj/Debug/net6.0/refint/ToDoList.dll
+/Users/by/Desktop/ToDoList.solution/ToDoList/obj/Debug/net6.0/ToDoList.pdb
+/Users/by/Desktop/ToDoList.solution/ToDoList/obj/Debug/net6.0/ref/ToDoList.dll
+/Users/by/Desktop/ToDoList.solution/ToDoList/bin/Debug/net6.0/ToDoList
+/Users/by/Desktop/ToDoList.solution/ToDoList/bin/Debug/net6.0/ToDoList.runtimeconfig.json
+/Users/by/Desktop/ToDoList.solution/ToDoList/obj/Debug/net6.0/ToDoList.genruntimeconfig.cache
