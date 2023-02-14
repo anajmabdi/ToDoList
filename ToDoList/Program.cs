@@ -1,38 +1,28 @@
-using System;
-using System.Collections.Generic;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
 
- using ToDoList.Models;
-
- namespace ToDoList
- {
-  public class Program
+namespace ToDoList
+{
+  class Program
   {
-    public static void Main()
+    static void Main(string[] args)
     {
-      Console.WriteLine("Would you like to add an item to your list or view you total list? Type 'add' or 'view'.");
-      string description = Console.ReadLine();
-      Item newItem = new Item(description);
-      Console.WriteLine("you have added " + newItem.Description + " to your list.");
-      string input = Console.ReadLine();
-      string lcInput = input.ToLower();
-      
-    
-      if (lcInput == "add")
-      {
-        Main();
-      }else if (lcInput == "view")
-      {
-        List<Item> result = Item.GetAll();
-        int listNumber = 1;
-        foreach(Item itemElement in result)
-        {
-          Console.WriteLine(listNumber + ". " + itemElement.Description);
-          listNumber++;
-        }
-      } else {
-        Console.WriteLine("We did not understand your input. Please try again.");
-        Main();
-      }
+      WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
+
+      builder.Services.AddControllersWithViews();
+
+      WebApplication app = builder.Build();
+
+      app.UseHttpsRedirection();
+
+      app.UseRouting();
+
+      app.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}"
+      );
+
+      app.Run();
     }
   }
- }
+}
